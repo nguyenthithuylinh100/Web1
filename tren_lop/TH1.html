@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dog D. Dog</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 1300px;
+        margin: 0 auto;
+        padding: 8px;
+      }
+      h1 {
+        color: #333;
+      }
+      .colorr {
+        color: #6a95d0;
+        font-weight: bold;
+      }
+      .colorrr {
+        color: #5475a3;
+        font-weight: bold;
+      }
+      .section {
+        background-color: #bad2ea;
+        color: #3678b7;
+        padding: 6px;
+        margin-bottom: 10px;
+        width: 98%;
+      }
+      .center {
+        text-align: center;
+        vertical-align: middle;
+        font-weight: bold;
+        background-color: white;
+      }
+      .back {
+        background-color: #eaeaea;
+      }
+      table {
+        width: 50%;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid #000000;
+        padding: 1px;
+        text-align: left;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+      img {
+        float: right;
+        max-width: 300px;
+        margin-left: 0px;
+      }
+      form {
+        margin-top: 8px;
+      }
+      input[type="text"] {
+        width: 20%;
+        padding: 0px;
+        margin-bottom: 0px;
+      }
+      input[type="submit"] {
+        padding: 5px 10px;
+        background-color: #c0c0c0;
+        color: black;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Dog D. Dog</h1>
+
+    <div>
+      <img src="./shin.png" alt="shin" />
+      <h2 class="section">About</h2>
+      <p>Woof woof!</p>
+      <p>Hi, I'm Dog. I love <a class="colorr"> User Interface Design.</a></p>
+    </div>
+
+    <div>
+      <h2 class="section">Courses</h2>
+      <p>Here are some courses I've taken:</p>
+      <table>
+        <tr>
+          <th class="center">Course Number</th>
+          <th class="center">Course Title</th>
+          <th class="center">Semester Taken</th>
+        </tr>
+        <tr>
+          <td colspan="3" class="center">For credit</td>
+        </tr>
+        <tr class="back">
+          <td class="colorrr">6.813</td>
+          <td class="colorr">User Interface Design</td>
+          <td class="colorr">Spring 2014</td>
+        </tr>
+        <tr>
+          <td class="colorrr">6.034</td>
+          <td>Artificial Intelligence</td>
+          <td>Fall 2013</td>
+        </tr>
+        <tr class="back">
+          <td class="colorrr">6.006</td>
+          <td>Introduction to Algorithms</td>
+          <td>Fall 2013</td>
+        </tr>
+        <tr text-align="center">
+          <td colspan="3" class="center">Listener</td>
+        </tr>
+        <tr class="back">
+          <td class="colorr">6.867</td>
+          <td>Machine Learning</td>
+          <td>Fall 2013</td>
+        </tr>
+        <tr>
+          <td class="colorr">6.830</td>
+          <td>Database Systems</td>
+          <td>Fall 2012</td>
+        </tr>
+      </table>
+    </div>
+
+    <div>
+      <h2 class="section">Interests</h2>
+      <p>I am interested in <strong>HCI</strong>, memes, and youtube videos.</p>
+    </div>
+
+    <div>
+      <h2 class="section">Submit Pet Information</h2>
+      <p>
+        Would love to know what kinds of pets you 'own' (you'll never own me).
+        Submit below!
+      </p>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" /><br />
+        <label for="phylum">Phylum:</label>
+        <input type="text" id="phylum" name="phylum" /><br />
+        <label for="gender">Gender:</label>
+        <input type="text" id="gender" name="gender" /><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
